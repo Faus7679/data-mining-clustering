@@ -1,0 +1,25 @@
+Dataset: /tmp/workspace/Faus7679/data-mining-clustering/data/CC_GENERAL.csv
+Selected k: 3
+Best silhouette: 0.2506
+
+Missing values handled with median imputation:
+                  missing_values
+MINIMUM_PAYMENTS             313
+CREDIT_LIMIT                   1
+
+Cluster summary:
+         size  BALANCE  PURCHASES  CASH_ADVANCE  CREDIT_LIMIT  PAYMENTS  PRC_FULL_PAYMENT
+cluster                                                                                  
+0        6119   799.75     505.53        330.82       3271.51    909.68              0.16
+1        1235  2220.00    4268.52        458.42       7733.97   4151.28              0.30
+2        1596  3989.14     384.53       3866.21       6675.44   3019.11              0.03
+
+Top association rules:
+                                     antecedents                consequents  support  confidence     lift
+INSTALLMENTS_PURCHASES_low, ONEOFF_PURCHASES_low              PURCHASES_low 0.171061    1.000000 2.999330
+            ONEOFF_PURCHASES_high, PAYMENTS_high             PURCHASES_high 0.157877    0.892609 2.678126
+             ONEOFF_PURCHASES_low, PURCHASES_low INSTALLMENTS_PURCHASES_low 0.171061    0.824448 2.472792
+       INSTALLMENTS_PURCHASES_low, PURCHASES_low       ONEOFF_PURCHASES_low 0.171061    0.823561 2.470131
+                   PAYMENTS_high, PURCHASES_high      ONEOFF_PURCHASES_high 0.157877    0.810206 2.430891
+                                  PURCHASES_high      ONEOFF_PURCHASES_high 0.256983    0.771036 2.313366
+                           ONEOFF_PURCHASES_high             PURCHASES_high 0.256983    0.771036 2.313366
