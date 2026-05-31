@@ -1,25 +1,25 @@
-Dataset: /tmp/workspace/Faus7679/data-mining-clustering/data/CC_GENERAL.csv
-Selected k: 3
-Best silhouette: 0.2506
+Dataset: C:\Users\Yawo Faustin AZIAKPO\Downloads\CreditCardDataSetforClustering.csv
+Selected k: 2
+Best silhouette: 0.3538
 
 Missing values handled with median imputation:
                   missing_values
-MINIMUM_PAYMENTS             313
-CREDIT_LIMIT                   1
+MINIMUM_PAYMENTS              28
 
 Cluster summary:
          size  BALANCE  PURCHASES  CASH_ADVANCE  CREDIT_LIMIT  PAYMENTS  PRC_FULL_PAYMENT
 cluster                                                                                  
-0        6119   799.75     505.53        330.82       3271.51    909.68              0.16
-1        1235  2220.00    4268.52        458.42       7733.97   4151.28              0.30
-2        1596  3989.14     384.53       3866.21       6675.44   3019.11              0.03
+0         240  1888.76     655.78        792.21       5380.00   1264.68              0.09
+1          59  5126.67    5414.55       2740.31      10564.41   6966.87              0.16
 
 Top association rules:
-                                     antecedents                consequents  support  confidence     lift
-INSTALLMENTS_PURCHASES_low, ONEOFF_PURCHASES_low              PURCHASES_low 0.171061    1.000000 2.999330
-            ONEOFF_PURCHASES_high, PAYMENTS_high             PURCHASES_high 0.157877    0.892609 2.678126
-             ONEOFF_PURCHASES_low, PURCHASES_low INSTALLMENTS_PURCHASES_low 0.171061    0.824448 2.472792
-       INSTALLMENTS_PURCHASES_low, PURCHASES_low       ONEOFF_PURCHASES_low 0.171061    0.823561 2.470131
-                   PAYMENTS_high, PURCHASES_high      ONEOFF_PURCHASES_high 0.157877    0.810206 2.430891
-                                  PURCHASES_high      ONEOFF_PURCHASES_high 0.256983    0.771036 2.313366
-                           ONEOFF_PURCHASES_high             PURCHASES_high 0.256983    0.771036 2.313366
+                                       antecedents                 consequents  support  confidence     lift
+INSTALLMENTS_PURCHASES_high, ONEOFF_PURCHASES_high              PURCHASES_high 0.173913    1.000000 2.990000
+              ONEOFF_PURCHASES_high, PAYMENTS_high              PURCHASES_high 0.163880    0.924528 2.764340
+        INSTALLMENTS_PURCHASES_high, PAYMENTS_high              PURCHASES_high 0.170569    0.894737 2.675263
+                     PAYMENTS_high, PURCHASES_high INSTALLMENTS_PURCHASES_high 0.170569    0.850000 2.541500
+                     PAYMENTS_high, PURCHASES_high       ONEOFF_PURCHASES_high 0.163880    0.816667 2.441833
+                                    PURCHASES_high       ONEOFF_PURCHASES_high 0.254181    0.760000 2.272400
+                             ONEOFF_PURCHASES_high              PURCHASES_high 0.254181    0.760000 2.272400
+                                    PURCHASES_high INSTALLMENTS_PURCHASES_high 0.254181    0.760000 2.272400
+                       INSTALLMENTS_PURCHASES_high              PURCHASES_high 0.254181    0.760000 2.272400
