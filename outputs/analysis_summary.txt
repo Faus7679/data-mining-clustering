@@ -19,7 +19,7 @@ INSTALLMENTS_PURCHASES_high, ONEOFF_PURCHASES_high              PURCHASES_high 0
         INSTALLMENTS_PURCHASES_high, PAYMENTS_high              PURCHASES_high 0.170569    0.894737 2.675263
                      PAYMENTS_high, PURCHASES_high INSTALLMENTS_PURCHASES_high 0.170569    0.850000 2.541500
                      PAYMENTS_high, PURCHASES_high       ONEOFF_PURCHASES_high 0.163880    0.816667 2.441833
-                                    PURCHASES_high       ONEOFF_PURCHASES_high 0.254181    0.760000 2.272400
                              ONEOFF_PURCHASES_high              PURCHASES_high 0.254181    0.760000 2.272400
-                                    PURCHASES_high INSTALLMENTS_PURCHASES_high 0.254181    0.760000 2.272400
+                                    PURCHASES_high       ONEOFF_PURCHASES_high 0.254181    0.760000 2.272400
                        INSTALLMENTS_PURCHASES_high              PURCHASES_high 0.254181    0.760000 2.272400
+                                    PURCHASES_high INSTALLMENTS_PURCHASES_high 0.254181    0.760000 2.272400
